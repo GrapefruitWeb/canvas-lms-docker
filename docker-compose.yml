@@ -5,7 +5,7 @@ web: &WEB
   env_file:
     - './.env'
   ports:
-    - '8000:80'
+    - '8001:80'
   volumes:
     - './start.sh:/var/canvas/start.sh'
     - './config/database.yml:/var/canvas/config/database.yml'
